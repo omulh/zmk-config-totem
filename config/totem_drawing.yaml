@@ -7,32 +7,33 @@ layers:
     - [Q, W, F, P, B, J, L, U, Y, {t: "'", s: '"'}]
     - [A, {h: Gui, t: R}, {h: Shift, t: S}, {h: Ctrl, t: T}, G, M, {h: Ctrl, t: N}, {h: Shift, t: E}, {h: Gui, t: I}, O]
     - [Z, X, C, {h: Alt, t: D}, V, K, {h: Alt, t: H}, {t: ',', s: ';'}, {t: ., s: ':'}, {t: /, s: '?'}]
-    - [{type: layer, h: FUN, t: "[FUN]"}, {type: layer, h: SYM, t: "[SYM]"}, {h: Shift, t: "[Shift]", s: "CAPS WORD"}, {h: NUM, t: Enter}, {h: NAV, t: Space}, {h: MEDIA, t: Bspace}]
+    - [Esc, {type: layer, h: FUN, t: "[FUN]"}, {type: layer, h: SYM, t: "[SYM]"}, {h: Shift, t: "[Shift]", s: "CAPS WORD"}]
+    - [{type: layer, h: NUM, t: "[NUM]"}, {h: NAV, t: Space}, {h: MEDIA, t: Bspace}, Enter]
   NUM:
     - [null, null, null, null, null, "Kp  +", 7, 8, 9, "Kp  *"]
     - [null, Gui, Shift, Ctrl, null, 0, 4, 5, 6, .]
     - [null, null, null, Alt, null, "Kp  -", 1, 2, 3, "Kp  /"]
-    - [null, null, null, {type: held}, null, null]
+    - [null, null, null, null, {type: held}, null, null, Enter]
   SYM:
     - [null, '+', '{', '}', '|', '~', '<', '>', '_', {type: dead, t: '́◌'}]
     - ['@', {h: Gui, t: '='}, {h: Shift, t: '['}, {h: Ctrl, t: ']'}, '\', '`', {h: Ctrl, t: '('}, {h: Shift, t: ')'}, {h: Gui, t: '-'}, '!']
     - [null, '%', '#', {h: Alt, t: '*'}, null, null, {h: Alt, t: '^'}, '$', '&', {type: dead, t: '̈◌'}]
-    - [null, {type: held, t: '󰜺'}, null, Esc, Tab, Delete]
+    - [null, null, {type: held, t: '󰜺'}, null, null, Tab, Delete, null]
   NAV:
     - [null, null, null, null, null, Home, "Pg  Dn", "Pg  Up", End, null]
     - [null, Gui, Shift, Ctrl, null, '←', '↓', '↑', '→', null]
     - [null, null, null, Alt, null, "Context Menu", Ins, Print, {type: zmk, t: "PREV WIN"}, null]
-    - [null, null, null, null, {type: held}, null]
+    - [null, null, null, null, null, {type: held}, null, null]
   FUN:
     - [null, null, null, null, null, F12, F7, F8, F9, null]
     - [null, "[Gui]", "[Shift]", "[Ctrl]", null, F11, F4, F5, F6, null]
     - [null, null, null, "[Alt]", null, F10, F1, F2, F3, null]
-    - [{type: held, t: "[AltGr]"}, null, "Caps Lock", null, null, null]
+    - [null, {type: held, t: "[AltGr]"}, null, "Caps Lock", null, null, null, null]
   MEDIA:
     - [null, null, null, null, null, "Ext Scr Br-", '', '', "Ext Scr Br+", null]
     - [null, null, null, null, null, '󰖁', '', '', '󰍭', null]
     - [null, null, null, null, null, '', '󰐎', '󱣴', '󰃬', null]
-    - [null, null, null, null, null, {type: held}]
+    - [null, null, null, null, null, null, {type: held}, null]
   (AltGr) DEF:
     - [{t: 'ä', s: 'Ä'}, {t: 'å', s: 'Å'}, null, {t: 'ö', s: 'Ö'}, {type: dead, t: '·', s: ' ̵◌'}]
     - [{t: 'ï', s: 'Ï'}, {t: 'ø', s: 'Ø'}, {t: 'ú', s: 'Ú'}, {t: 'ü', s: 'Ü'}, {type: dead, t: '́◌', s: '̈◌'}]
@@ -40,27 +41,27 @@ layers:
     - [{t: 'µ', s: '±'}, {t: 'ñ', s: 'Ñ'}, {t: 'é', s: 'É'}, {t: 'í', s: 'Í'}, {t: 'ó', s: 'Ó'}]
     - [{t: 'æ', s: 'Æ'}, {t: 'œ', s: 'Œ'}, {t: '©', s: '¢'}, {t: 'ð', s: 'Ð'}, {type: dead, t: '®', s: '™'}]
     - [{t: 'œ', s: 'Œ'}, null, {t: 'ç', s: '¶'}, {type: t_dead, t: '̇◌', s: '°'}, {type: s_dead, t: '¿', s: '̉◌'}]
-    - [null, null, {h: Shift, t: "[Shift]"}, null, null, null]
+    - [null, null, null, {h: Shift, t: "[Shift]"}, null, null, null, null]
   (AltGr) NUM:
     - [null, null, null, null, null, null, {type: dead, t: '◌̛ '}, {type: dead, t: '̨◌'}, '‘', null]
     - [null, null, null, null, null, '’', '¤', '€', {type: dead, t: '̂◌'}, {type: dead, t: '̇◌'}]
     - [null, null, null, null, null, null, '¹', '²', '³', null]
-    - [null, null, null, {type: held}, null, null]
+    - [null, null, null, null, {type: held}, null, null, null]
   (AltGr) SYM:
     - [null, '÷', '“', '”', '¦', {type: dead, t: '̃◌'}, 'Ç', {type: dead, t: '̌◌'}, {type: dead, t: '̣◌'}, null]
     - [{type: dead, t: '̋◌'}, '×', '«', '»', '¬', {type: dead, t: '̀◌'}, {type: dead, t: '̆◌'}, {type: dead, t: '̊◌'}, '¥', '¡']
     - [null, {type: dead, t: '̧◌'}, {type: dead, t: '̄◌'}, '¾', null, null, '¼', '£', '½', null]
-    - [null, {type: held, t: '󰜺'}, null, null, null, null]
+    - [null, null, {type: held, t: '󰜺'}, null, null, null, null, null]
   CONF:
     - [null, null, null, null, null, {type: zmk, t: "OUT BLE"}, {type: zmk, t: "BT0"}, {type: zmk, t: "BT1"}, {type: zmk, t: "BT2"}, {type: zmk, t: "BT CLR"}]
     - [null, null, null, null, null, {type: zmk, t: "OUT USB"}, null, null, null, null]
     - [null, null, null, null, null, null, null, null, null, null]
-    - [null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null]
   Combos:
     - [null, null, null, null, null, null, null, null, null, null]
     - [null, null, null, null, null, null, null, null, null, null]
     - [null, null, null, null, null, null, null, null, null, null]
-    - [null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null]
 
 combos:
   - {p: [0, 1], k: Esc, l: ["Combos"], w: 40}
