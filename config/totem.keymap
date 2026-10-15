@@ -49,22 +49,6 @@
             bindings = <&q_sk LSHFT>, <&caps_word>;
         };
 
-        kp_dot_colon: kp_dot_colon_morph {
-            compatible = "zmk,behavior-mod-morph";
-            display-name = "Dot/Colon Morph";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp COLON>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        kp_comma_semi: kp_comma_semicolon_morph {
-            compatible = "zmk,behavior-mod-morph";
-            display-name = "Comma/Semicolon Morph";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp SEMI>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         lhm_ht: left_homerow_mod_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             display-name = "Left Homerow Mod Hold/Tap";
@@ -200,10 +184,10 @@
         default_layer {
             display-name = "Colemak Mod DH";
             bindings = <
-          &kp Q  &kp          W  &kp           F  &kp           P  &kp   B        &kp        J  &kp           L  &kp           U  &kp          Y  &kp  SQT
-          &kp A  &lhm_ht LGUI R  &lhm_ht LSHFT S  &lhm_ht LCTRL T  &kp   G        &kp        M  &rhm_ht RCTRL N  &rhm_ht RSHFT E  &rhm_ht RGUI I  &kp    O
-&kp CAPS  &kp Z  &kp          X  &kp           C  &lhm_ht LALT  D  &kp   V        &kp        K  &rhm_ht LALT  H  &kp_comma_semi   &kp_dot_colon   &kp FSLH  &kp RET
-                                 &lsl_ht     4 4  &lsln_ht    1 1  &ms_td         &lsln_ht 3 3  &lk_ht  2 SPACE  &lk_ht   5 BSPC
+          &kp Q  &kp          W  &kp           F  &kp           P  &kp   B        &kp         J  &kp           L  &kp           U  &kp          Y  &kp SEMI
+          &kp A  &lhm_ht LGUI R  &lhm_ht LSHFT S  &lhm_ht LCTRL T  &kp   G        &kp         M  &rhm_ht RCTRL N  &rhm_ht RSHFT E  &rhm_ht RGUI I  &kp    O
+&kp CAPS  &kp Z  &kp          X  &kp           C  &lhm_ht LALT  D  &kp   V        &kp         K  &rhm_ht LALT  H  &kp       COMMA  &kp        DOT  &kp FSLH  &kp SQT
+                                 &lsl_ht     4 4  &lsln_ht    1 1  &ms_td         &lkh_ht 3 RET  &lk_ht  2 SPACE  &lk_ht   5 BSPC
             >;
         };
 
