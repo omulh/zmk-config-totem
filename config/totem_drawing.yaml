@@ -28,7 +28,7 @@ layers:
     - [null, null, null, null, null, F12, F7, F8, F9, null]
     - [null, "[Gui]", "[Shift]", "[Ctrl]", null, F11, F4, F5, F6, null]
     - [null, null, null, "[Alt]", null, F10, F1, F2, F3, null]
-    - [null, {type: held, t: "[AltGr]"}, null, "Caps Lock", null, null, null, null]
+    - [null, {type: held, t: "[AltGr]"}, null, null, null, null, null, null]
   MEDIA:
     - [null, null, null, null, null, "Ext Scr Br-", '', '', "Ext Scr Br+", null]
     - [null, null, null, null, null, '󰖁', '', '', '󰍭', null]
