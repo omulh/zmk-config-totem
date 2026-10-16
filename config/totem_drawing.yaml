@@ -8,7 +8,7 @@ layers:
     - [A, {h: Gui, t: R}, {h: Shift, t: S}, {h: Ctrl, t: T}, G, M, {h: Ctrl, t: N}, {h: Shift, t: E}, {h: Gui, t: I}, O]
     - [Z, X, C, {h: Alt, t: D}, V, K, {h: Alt, t: H}, {t: ',', s: '<'}, {t: ., s: '>'}, {t: '/', s: '?'}]
     - [Esc, {type: layer, h: FUN, t: "[FUN]"}, {type: layer, h: SYM, t: "[SYM]"}, {h: Shift, t: "[Shift]", s: "CAPS WORD"}]
-    - [{type: layer, h: NUM, t: "[NUM]"}, {h: NAV, t: Space}, {h: MEDIA, t: Bspace}, {t: "'", s: '"'}]
+    - [{h: NUM, t: Enter}, {h: NAV, t: Space}, {h: MEDIA, t: Bspace}, {t: "'", s: '"'}]
   NUM:
     - [null, null, null, null, null, "Kp  +", 7, 8, 9, "Kp  *"]
     - [null, Gui, Shift, Ctrl, null, 0, 4, 5, 6, .]
@@ -36,12 +36,12 @@ layers:
     - [null, null, null, null, null, null, {type: held}, null]
   (AltGr) DEF:
     - [{t: 'ä', s: 'Ä'}, {t: 'å', s: 'Å'}, null, {t: 'ö', s: 'Ö'}, {type: dead, t: '·', s: ' ̵◌'}]
-    - [{t: 'ï', s: 'Ï'}, {t: 'ø', s: 'Ø'}, {t: 'ú', s: 'Ú'}, {t: 'ü', s: 'Ü'}, {type: dead, t: '́◌', s: '̈◌'}]
+    - [{t: 'ï', s: 'Ï'}, {t: 'ø', s: 'Ø'}, {t: 'ú', s: 'Ú'}, {t: 'ü', s: 'Ü'}, {t: '¶', s: '°'}]
     - [{t: 'á', s: 'Á'}, {t: 'ë', s: 'Ë'}, {t: 'ß', s: '§'}, {t: 'þ', s: 'Þ'}, null]
     - [{t: 'µ', s: '±'}, {t: 'ñ', s: 'Ñ'}, {t: 'é', s: 'É'}, {t: 'í', s: 'Í'}, {t: 'ó', s: 'Ó'}]
     - [{t: 'æ', s: 'Æ'}, {t: 'œ', s: 'Œ'}, {t: '©', s: '¢'}, {t: 'ð', s: 'Ð'}, {type: dead, t: '®', s: '™'}]
-    - [{t: 'œ', s: 'Œ'}, null, {t: 'ç', s: '¶'}, {type: t_dead, t: '̇◌', s: '°'}, {type: s_dead, t: '¿', s: '̉◌'}]
-    - [null, null, null, {h: Shift, t: "[Shift]"}, null, null, null, null]
+    - [{t: 'œ', s: 'Œ'}, null, {t: 'ç', s: 'Ç'}, {type: t_dead, t: '̇◌', s: '̌◌'}, {type: s_dead, t: '¿', s: '̉◌'}]
+    - [null, null, null, {h: Shift, t: "[Shift]"}, null, null, null, {type: dead, t: '́◌', s: '̈◌'}]
   (AltGr) NUM:
     - [null, null, null, null, null, null, {type: dead, t: '◌̛ '}, {type: dead, t: '̨◌'}, '‘', null]
     - [null, null, null, null, null, '’', '¤', '€', {type: dead, t: '̂◌'}, {type: dead, t: '̇◌'}]
