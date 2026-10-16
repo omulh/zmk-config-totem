@@ -196,7 +196,7 @@
             display-name = "Symbols";
             bindings = <
        &none      &kp           EXCL  &kp          PRCNT  &kp           AMPS  &kp AT          &kp CARET  &kp           STAR  &kp           HASH  &kp          DLLR  &kp RA(SQT)
-       &kp TILDE  &lhm_ht LGUI MINUS  &lhm_ht LSHFT LPAR  &lhm_ht LCTRL RPAR  &kp PLUS        &kp  LBRC  &rhm_ht RCTRL LBKT  &rhm_ht RSHFT RBKT  &rhm_ht RGUI RBRC  &kp TILDE
+       &kp TILDE  &lhm_ht LGUI MINUS  &lhm_ht LSHFT LPAR  &lhm_ht LCTRL RPAR  &kp PLUS        &kp  LBRC  &rhm_ht RCTRL LBKT  &rhm_ht RSHFT RBKT  &rhm_ht RGUI RBRC  &kp GRAVE
 &none  &none      &none               &kp           BSLH  &lhm_ht LALT EQUAL  &none           &none      &rhm_ht LALT UNDER  &kp           PIPE  &none              &kp RA(DQT)  &none
                                       &none               &kp       K_CANCEL  &none           &kp   ESC  &kp            TAB  &kp            DEL
             >;
