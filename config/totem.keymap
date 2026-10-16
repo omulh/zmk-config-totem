@@ -172,7 +172,7 @@
 
         combo_rgbled_widget_con {
             bindings = <&ind_con>;
-            key-positions = <26 27 28>;
+            key-positions = <27 28 29>;
             layers = <0>;
         };
     };
