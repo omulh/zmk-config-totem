@@ -4,11 +4,11 @@ layout:
 
 layers:
   DEF:
-    - [Q, W, F, P, B, J, L, U, Y, {t: "'", s: '"'}]
+    - [Q, W, F, P, B, J, L, U, Y, {t: ';', s: ':'}]
     - [A, {h: Gui, t: R}, {h: Shift, t: S}, {h: Ctrl, t: T}, G, M, {h: Ctrl, t: N}, {h: Shift, t: E}, {h: Gui, t: I}, O]
-    - [Z, X, C, {h: Alt, t: D}, V, K, {h: Alt, t: H}, {t: ',', s: ';'}, {t: ., s: ':'}, {t: /, s: '?'}]
+    - [Z, X, C, {h: Alt, t: D}, V, K, {h: Alt, t: H}, {t: ',', s: '<'}, {t: ., s: '>'}, {t: '/', s: '?'}]
     - [Esc, {type: layer, h: FUN, t: "[FUN]"}, {type: layer, h: SYM, t: "[SYM]"}, {h: Shift, t: "[Shift]", s: "CAPS WORD"}]
-    - [{type: layer, h: NUM, t: "[NUM]"}, {h: NAV, t: Space}, {h: MEDIA, t: Bspace}, Enter]
+    - [{type: layer, h: NUM, t: "[NUM]"}, {h: NAV, t: Space}, {h: MEDIA, t: Bspace}, {t: "'", s: '"'}]
   NUM:
     - [null, null, null, null, null, "Kp  +", 7, 8, 9, "Kp  *"]
     - [null, Gui, Shift, Ctrl, null, 0, 4, 5, 6, .]
