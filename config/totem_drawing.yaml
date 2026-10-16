@@ -48,9 +48,9 @@ layers:
     - [null, null, null, null, null, null, '¹', '²', '³', null]
     - [null, null, null, null, {type: held}, null, null, null]
   (AltGr) SYM:
-    - [null, '÷', '“', '”', '¦', {type: dead, t: '̃◌'}, 'Ç', {type: dead, t: '̌◌'}, {type: dead, t: '̣◌'}, null]
-    - [{type: dead, t: '̋◌'}, '×', '«', '»', '¬', {type: dead, t: '̀◌'}, {type: dead, t: '̆◌'}, {type: dead, t: '̊◌'}, '¥', '¡']
-    - [null, {type: dead, t: '̧◌'}, {type: dead, t: '̄◌'}, '¾', null, null, '¼', '£', '½', null]
+    - [null, '¡', {type: dead, t: '̧◌'}, '½', {type: dead, t: '̋◌'}, '¼', '¾', {type: dead, t: '̄◌'}, '£', null]
+    - [{type: dead, t: '̃◌'}, '¥', {type: dead, t: '̆◌'}, {type: dead, t: '̊◌'}, '÷', '“', '«', '»', '”', {type: dead, t: '̀◌'}]
+    - [null, null, '¬', '×', null, null, {type: dead, t: '̣◌'}, '¦', null, null]
     - [null, null, {type: held, t: '󰜺'}, null, null, null, null, null]
   CONF:
     - [null, null, null, null, null, {type: zmk, t: "OUT BLE"}, {type: zmk, t: "BT0"}, {type: zmk, t: "BT1"}, {type: zmk, t: "BT2"}, {type: zmk, t: "BT CLR"}]
