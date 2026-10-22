@@ -5,7 +5,7 @@ layers:
   DEF:
     - [Q, W, F, P, B, J, L, U, Y, {t: ';', s: ':'}]
     - [A, {h: Gui, t: R}, {h: Shift, t: S}, {h: Ctrl, t: T}, G, M, {h: Ctrl, t: N}, {h: Shift, t: E}, {h: Gui, t: I}, O]
-    - [Esc, Z, X, C, {h: Alt, t: D}, V, K, {h: Alt, t: H}, {t: ',', s: '<'}, {t: ., s: '>'}, {t: '/', s: '?'}, {t: "'", s: '"'}]
+    - ["Caps Lock", Z, X, C, {h: Alt, t: D}, V, K, {h: Alt, t: H}, {t: ',', s: '<'}, {t: ., s: '>'}, {t: '/', s: '?'}, {t: "'", s: '"'}]
     - [{type: layer, h: FUN, t: "[FUN]"}, {type: layer, h: SYM, t: "[SYM]"}, {h: Shift, t: "[Shift]", s: "CAPS WORD"}]
     - [{h: NUM, t: Enter}, {h: NAV, t: Space}, {h: MEDIA, t: Bspace}]
   NUM:
