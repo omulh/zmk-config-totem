@@ -195,10 +195,10 @@
         symbols {
             display-name = "Symbols";
             bindings = <
-       &none      &kp           EXCL  &kp          PRCNT  &kp           AMPS  &kp AT          &kp CARET  &kp           STAR  &kp           HASH  &kp          DLLR  &kp RA(SQT)
-       &kp TILDE  &lhm_ht LGUI MINUS  &lhm_ht LSHFT LPAR  &lhm_ht LCTRL RPAR  &kp PLUS        &kp  LBRC  &rhm_ht RCTRL LBKT  &rhm_ht RSHFT RBKT  &rhm_ht RGUI RBRC  &kp GRAVE
-&none  &none      &none               &kp           BSLH  &lhm_ht LALT EQUAL  &none           &none      &rhm_ht LALT UNDER  &kp           PIPE  &none              &kp RA(DQT)  &none
-                                      &none               &kp       K_CANCEL  &none           &kp   ESC  &kp            TAB  &kp            DEL
+       &none     &kp            AT  &kp           HASH  &kp           DLLR  &none           &none      &kp          PRCNT  &kp          CARET  &kp          AMPS  &kp RA(SQT)
+       &kp EXCL  &lhm_ht LGUI LBKT  &lhm_ht LSHFT LBRC  &lhm_ht LCTRL RBRC  &kp RBKT        &kp MINUS  &rhm_ht RCTRL LPAR  &rhm_ht RSHFT RPAR  &rhm_ht RGUI PLUS  &kp STAR
+&none  &none     &kp         GRAVE  &kp          TILDE  &lhm_ht LALT EQUAL  &none           &none      &rhm_ht LALT UNDER  &kp           PIPE  &kp          BSLH  &kp RA(DQT)  &none
+                                    &none               &kp       K_CANCEL  &none           &kp   ESC  &kp            TAB  &kp            DEL
             >;
         };
 
