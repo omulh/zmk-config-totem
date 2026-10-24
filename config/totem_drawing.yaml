@@ -14,9 +14,9 @@ layers:
     - [null, null, null, null, Alt, null, "Kp  -", 1, 2, 3, "Kp  /", Enter]
     - [null, null, null, {type: held}, null, null]
   SYM:
-    - [null, '!', '%', '&', '@', '^', '*', '#', '$', {type: dead, t: '́◌'}]
-    - ['~', {h: Gui, t: '-'}, {h: Shift, t: '('}, {h: Ctrl, t: ')'}, '+', '{', {h: Ctrl, t: '['}, {h: Shift, t: ']'}, {h: Gui, t: '}'}, '`']
-    - [null, null, null, '\', {h: Alt, t: '='}, null, null, {h: Alt, t: '_'}, '|', null, {type: dead, t: '̈◌'}, null]
+    - [null, '@', '#', '$', null, null, '%', '^', '&', {type: dead, t: '́◌'}]
+    - ['!', {h: Gui, t: '['}, {h: Shift, t: '{'}, {h: Ctrl, t: '}'}, ']', '-', {h: Ctrl, t: '('}, {h: Shift, t: ')'}, {h: Gui, t: '+'}, '*']
+    - [null, null, '`', '~', {h: Alt, t: '='}, null, null, {h: Alt, t: '_'}, '|', '\', {type: dead, t: '̈◌'}, null]
     - [null, {type: held, t: '󰜺'}, null, Esc, Tab, Delete]
   NAV:
     - [null, null, null, null, null, Home, "Pg  Dn", "Pg  Up", End, null]
@@ -47,10 +47,12 @@ layers:
     - [null, null, null, null, null, null, null, '¹', '²', '³', null, null]
     - [null, null, null, {type: held}, null, null]
   (AltGr) SYM:
-    - [null, '¡', {type: dead, t: '̧◌'}, '½', {type: dead, t: '̋◌'}, '¼', '¾', {type: dead, t: '̄◌'}, '£', null]
-    - [{type: dead, t: '̃◌'}, '¥', {type: dead, t: '̆◌'}, {type: dead, t: '̊◌'}, '÷', '“', '«', '»', '”', {type: dead, t: '̀◌'}]
-    - [null, null, null, '¬', '×', null, null, {type: dead, t: '̣◌'}, '¦', null, null, null]
+    - [null, {type: dead, t: '̋◌'}, {type: dead, t: '̄◌'}, '£', null, null, {type: dead, t: '̧◌'}, '¼', '½', null]
+    - ['¡', '«', '“', '”', '»', '¥', {type: dead, t: '̆◌'}, {type: dead, t: '̊◌'}, '÷', '¾']
+    - [null, null, {type: dead, t: '̀◌'}, {type: dead, t: '̃◌'}, '×', null, null, {type: dead, t: '̣◌'}, '¦', '¬', null, null]
     - [null, {type: held, t: '󰜺'}, null, null, null, null]
+
+
   CONF:
     - [null, null, null, null, null, {type: zmk, t: "OUT BLE"}, {type: zmk, t: "BT0"}, {type: zmk, t: "BT1"}, {type: zmk, t: "BT2"}, {type: zmk, t: "BT CLR"}]
     - [null, null, null, null, null, {type: zmk, t: "OUT USB"}, null, null, null, null]
